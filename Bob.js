@@ -8,7 +8,7 @@ class Bob{
         }
         
         this.body = Bodies.circle(x,y,20,options);
-        this.radius = radius;
+        this.radius = radius/2;
 
         World.add(world,this.body)
     }
