@@ -20,10 +20,10 @@ function setup() {
 	bar = new Roof(400,100,300,35)
 
 	bobObject1 = new Bob(400,400,50)
-	bobObject2 = new Bob(350,400,50)
-	bobObject3 = new Bob(300,400,50)
-	bobObject4 = new Bob(450,400,50)
-	bobObject5 = new Bob(500,400,50)
+	bobObject2 = new Bob(450,400,50)
+	bobObject3 = new Bob(500,400,50)
+	bobObject4 = new Bob(550,400,50)
+	bobObject5 = new Bob(600,400,50)
 
 	rope1 = new Rope(bobObject1.body,bar.body,0*2,0)
 	rope2 = new Rope(bobObject2.body,bar.body,-25*2,0)
